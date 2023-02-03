@@ -79,7 +79,6 @@ const HeroForm = () => {
             marginTop="1.3rem"
             id="gdpr"
             type="checkbox"
-            defaultChecked
             placeholder="GDPR"
             {...register('gdpr', { required: true })}
           >
